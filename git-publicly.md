@@ -3,21 +3,21 @@
 - You can also push your changes online.
 - Or propose changes with pull (fetch is unclear yet).
 - Check your remote:
-	```bash
+	```
 	$ git remote 	# this should return 'origin'
 			# in order to access a remote you have first to git clone <URL>
 			# To initialize a remote in your github account do it using a web browser (I am not sure how to do this in command line).
 	```
 - Show remote's URL:
-	```bash
+	```
 	$ git remote -v
 	```
 - Fetching/Pulling (?):
-	```bash
+	```
 	$ git fetch origin 	# shows changes since last fetching the server
 	$ git pull 	  	# updates your local repository(?) - I use this in orgmode (also propose changes..)
 	```
 - Push online:
-	```bash
+	```
 	$ git push origin master # uploads your master branch to the origin
 	```
