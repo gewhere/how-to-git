@@ -40,19 +40,23 @@
 	```
 	$ git branch NewBranch
 	```
+	
 	- Switching to the new branch:
 		```
 		$ git checkout NewBranch
 		```
+
 		- Make a file in the new branch:
 			```
 			$ touch testFile # this file does not exists unless merge this branch to your master branch
 					 # by default the master branch is named 'master' unless you renamed it
 			```
+
 		- Going back to your master branch:
 			```
 			$ git checkout master
 			```
+
 	- Merge NewBranch to master branch:
 		```
 		$ git merge NewBranch # at this point the 'testFile' is created
