@@ -24,7 +24,7 @@
 	
 	- Commit files:
 		$ git commit -m newFile # commits only <newFile>
-		$ git commit -a -m 'commit every file'
+		$ git commit -a -m 'commit all the files without the staging step (ie. git add)'
 # Branching
 - Making branches allows you to apply modification in a different branch, keeping intact the original code.
 - Creating a new branch:
